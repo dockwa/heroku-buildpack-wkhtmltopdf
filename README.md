@@ -5,6 +5,10 @@
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
+### Contributing
+All previous versions of this have become archived so it's easier for use to maintain and update our own at Dockwa rather than always having to find a new one.
+To update for a newer Heroku stack, check recent commits [such as this commit adding heroku-24 support](https://github.com/dockwa/heroku-buildpack-wkhtmltopdf/commit/2912111abbe0d5c0e4f61f0dbfd7b873549d6626) to add.
+
 </div>
 
 ## 📝 Table of Contents
@@ -23,7 +27,7 @@
 This buildpack downloads and extracts the
 [wkhtmltopdf](https://wkhtmltopdf.org/) binaries and works on `heroku-18`, `heroku-20` and `heroku-22` stacks.
 
-- This buildpack downloads wkhtmltopdf v0.12.6.1-2 for `heroku-22`, v0.12.6-1 for `heroku-20` stack and v0.12.5 for `heroku-18` stack.
+- This buildpack downloads wkhtmltopdf v0.12.6.1-2 for `heroku-24` and `heroku-22`, v0.12.6-1 for `heroku-20`, and v0.12.5 for `heroku-18`.
 - This buildpack can bypass stack detection if the url to the wkhtmltopdf binary is provided through Aptfile.
 
 ## Changelog <a name = "changelog"></a>
@@ -38,11 +42,14 @@ This buildpack downloads and extracts the
 - v3
     - Added support for `Heroku-22`
     - Added support for bypassing stack detection.
+      
+- v4
+    - Added support for `Heroku-24`
 
 ## Features <a name = "feature"></a>
 - Downloads wkhtmltopdf binaries from [wkhtmltopdf.org](http://wkhtmltopdf.org)
 - It doesnot add new environment variables or shell scripts.
-- Tested on `heroku-22`, `heroku-20` and `heroku-18`stack images.
+- Tested on `heroku-24`, `heroku-22`, `heroku-20` and `heroku-18`stack images.
 - It allows you to specify a custom or the latest version of wkhtmltopdf package for your app on Heroku. [Aptfile](#aptfile).
 
 ## Getting Started <a name = "getting_started"></a>
