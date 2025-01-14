@@ -5,11 +5,11 @@
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-### Contributing
-All previous versions of this have become archived so it's easier for use to maintain and update our own at Dockwa rather than always having to find a new one.
-To update for a newer Heroku stack, check recent commits [such as this commit adding heroku-24 support](https://github.com/dockwa/heroku-buildpack-wkhtmltopdf/commit/2912111abbe0d5c0e4f61f0dbfd7b873549d6626) to add.
-
 </div>
+
+### Contributing
+- All previous versions of this have become archived so it's easier for use to maintain and update our own at Dockwa rather than always having to find a new one.
+- To update for a newer Heroku stack, check recent commits [such as this commit adding heroku-24 support](https://github.com/dockwa/heroku-buildpack-wkhtmltopdf/commit/2912111abbe0d5c0e4f61f0dbfd7b873549d6626) to add. Don't forget to update readme and other docs on this repo.
 
 ## 📝 Table of Contents
 
